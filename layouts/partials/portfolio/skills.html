@@ -1,0 +1,31 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+  <div class="my-auto" id="skills-content">
+    <h2 class="mb-5">Skills</h2>
+    {{ range $.Site.Data.skills }}
+        <div class="subheading mb-3 skills-heading">{{ .grouping }}</div>
+            <ul>
+            {{ range .skills }}
+                {{ if isset . "name" }}
+                    <li class="list-inline-item">
+                      {{if  isset . "icon" }}
+                      <i class="devicon-{{ lower .icon }}"></i>
+                      {{ else }}
+                      <i class="fal fa-angle-double-right"></i>
+                      {{ end }}
+                      {{if isset . "link"}}
+                          <a href="{{.link}}">{{ .name }}</a>
+                      {{ else }}
+                          {{ .name }}
+                      {{ end }}
+                    </li>
+                {{ else }}
+                  <li class="list-inline-item">
+                    <i class="fas fa-greater-than"></i>
+                    {{ . }}
+                  </li>
+                {{ end }}
+            {{ end }}
+            </ul>
+    {{ end }}
+  </div>
+</section>

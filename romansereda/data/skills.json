@@ -1,0 +1,64 @@
+[
+  {
+    "grouping":"Infrastructure-As-Code",
+      "skills":[
+          {"name":"Terraform","link":"https://www.terraform.io/", "icon":"terraform-plain"},
+          {"name":"ArgoCD","link":"https://argo-cd.readthedocs.io/en/stable/", "icon":"argocd-plain colored" },
+          {"name":"CloudFormation","link":"https://aws.amazon.com/cloudformation/" , "icon":"amazonwebservices-original" },
+          {"name":"Docker","link":"https://www.docker.com/" , "icon":"docker-plain"},
+          {"name":"Ansible","link":"https://www.ansible.com/" , "icon":"ansible-plain"}
+          
+      ]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Kubernetes","link":"https://kubernetes.io/", "icon":"kubernetes-plain colored"},
+          {"name":"Docker","link":"https://www.docker.com/"},
+          {"name":"AWS","link":"https://aws.amazon.com", "icon":"amazonwebservices-original"},
+          {"name":"Google Cloud","link":"https://cloud.google.com" , "icon":"googlecloud-plain colored"},
+          {"name":"Linux","link":"https://www.linux.org/" , "icon":"linux-plain"}
+      ]
+  },
+  {
+      "grouping":"Data Management",
+      "skills":[
+        {"name":"MySQL","link":"https://www.mysql.com/", "icon":"mysql-plain"},
+        {"name":"PostgreSQL","link":"https://www.postgresql.org/", "icon":"postgresql-plain"},
+        {"name":"MongoDB", "link":"https://www.postgresql.org/", "icon":"mongodb-plain"},
+        {"name":"Apache Kafka","link":"https://kafka.apache.org/", "icon":"apachekafka-original"},
+        {"name":"Apache Kafka","link":"https://www.elastic.co/"}
+      ]
+  }
+  ,
+  {
+      "grouping":"Architecture",
+      "skills":[
+        {"name":"Networking", "icon":"networkx-original colored"},
+        {"name":"Microservices", "icon":"graphql-plain"},
+        {"name":"RESTful APIs", "icon":"fastapi-plain"},
+        {"name":"SaaS/PaaS/IaaS"}
+      ]
+  },   
+  {
+      "grouping":"Languages, Automation Tools",
+      "skills":[ 
+        {"name":"Python","link":"https://www.python.org/", "icon":"python-plain colored"},
+        {"name":"Go","link":"https://go.dev/", "icon":"go-plain colored"},
+        {"name":"BASH","link":"https://www.gnu.org/software/bash/", "icon":"bash-plain"},
+        {"name":"PHP","link":"https://www.php.net/", "icon":"php-plain colored"},
+        {"name":"Ansible","link":"https://www.ansible.com/" , "icon":"ansible-plain"},
+        {"name":"Chef","link":"https://www.chef.io/"}
+      ]
+  },
+  {
+    "grouping":"Platform Development & Administration",
+    "skills":[ 
+      {"name":"Jira","link":"https://www.atlassian.com/de/software/jira", "icon":"jira-plain colored"},
+      {"name":"Gitlab","link":"https://about.gitlab.com/", "icon":"gitlab-plain colored"},
+      {"name":"Github","link":"https://github.com/", "icon":"github-original colored"},
+      {"name":"Bitbucket","link":"https://bitbucket.org/product", "icon":"bitbucket-original colored"},
+      {"name":"Jenkins","link":"https://www.jenkins.io/" , "icon":"jenkins-plain"}
+    ]
+}
+]
